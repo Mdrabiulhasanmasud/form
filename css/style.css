@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form_banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imgg/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+.form-bg{
+    width: 50%;
+    background: #f0ecf9;
+    padding: 40px;
+
+}
+.img{
+    text-align: center;
+    
+}
+.img img{
+    width: 20%;
+    border-radius: 50%;
+}
+input{
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 99%;
+    margin-top: 20px;
+    background: none;
+
+}
+i{
+    margin-left: -20px;
+}
+.name input{
+    width: 48%;
+
+}
+.f_name{
+    margin-right: 15px;
+}
+.btn{
+    text-align: right;
+    margin-top: 20px;
+    padding: 10px 0px;
+    margin-left: 84%;
+    border: 1px solid rgb(236, 230, 230);
+    background-color: rgb(88, 147, 198);
+    transition: 0.3s;
+   
+}
+
+.btn a{
+    margin-right: 20px;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+.btn i{
+    margin-right: 10px;
+}
+.btn:hover{
+    background: #84ab3d;
+  
+}
+
